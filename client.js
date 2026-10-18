@@ -215,6 +215,16 @@ window.__ModuleLoader__.load({
       ":has(> [data-changes-hover-preview]){background-color:#c0c0c0 !important;padding:2px !important;box-shadow:var(--w95-raised),8px 8px 0 0 rgba(0,0,0,.35) !important;outline:1px solid #000000 !important;overflow:visible !important;}",
       "[data-changes-hover-preview] > div:first-child{background-color:#000080 !important;color:#ffffff !important;padding:2px 6px !important;}",
       "[data-changes-hover-preview] > div:first-child *{color:#ffffff !important;}",
+
+      /* ——— session / workspace hover cards: silver tooltip window, black text ——— */
+      "div[class*='_card_']:has([class*='hoverContent']){background-color:#c0c0c0 !important;color:#000000 !important;box-shadow:var(--w95-raised),6px 6px 0 0 rgba(0,0,0,.35) !important;outline:1px solid #000000 !important;}",
+      "div[class*='_card_']:has([class*='hoverContent']) [class*='hoverTitle']{color:#000000 !important;font-weight:700 !important;}",
+      "div[class*='_card_']:has([class*='hoverContent']) :is([class*='hoverPath'],[class*='hoverTime']){color:#404040 !important;}",
+      "div[class*='_card_']:has([class*='hoverContent']) [class*='hoverStatus']{color:#000000 !important;}",
+      "div[class*='_card_']:has([class*='hoverContent']) [class*='hoverStatus'] svg,div[class*='_card_']:has([class*='hoverContent']) [class*='hoverArchived'] svg{color:#000000 !important;fill:currentColor !important;}",
+      "div[class*='_card_']:has(> [class*='_copied_']){background-color:#c0c0c0 !important;box-shadow:var(--w95-raised),6px 6px 0 0 rgba(0,0,0,.35) !important;outline:1px solid #000000 !important;}",
+      "div[class*='_card_']:has(> [class*='_copied_']) [class*='_copied_']{color:#000000 !important;}",
+
       "[class*='menu']:has(> ul[aria-label]){background-color:#c0c0c0 !important;padding:2px !important;box-shadow:var(--w95-raised),8px 8px 0 0 rgba(0,0,0,.35) !important;outline:1px solid #000000 !important;overflow:visible !important;}",
       "[class*='menu']:has(> ul[aria-label]) > div:first-child{box-shadow:var(--w95-raised) !important;}",
       "[class*='menu']:has(> ul[aria-label]) > ul > li:first-child{background-color:#000080 !important;}",

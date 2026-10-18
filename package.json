@@ -1,6 +1,6 @@
 {
   "name": "dsh_win95_skin",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": true,
   "description": "Windows 95 skin for the DeepSeek Harness Web UI: silver beveled chrome, navy selection, square pixel icons, and classic scrollbars.",
   "license": "MIT",
