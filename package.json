@@ -1,0 +1,43 @@
+{
+  "name": "dsh_win95_skin",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Windows 95 skin for the DeepSeek Harness Web UI: silver beveled chrome, navy selection, square pixel icons, and classic scrollbars.",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "theme",
+    "skin",
+    "windows95",
+    "pixel"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "fonts/*.woff2",
+    "INSTALL.md",
+    "LICENSE",
+    "LICENSE-Fonts.txt"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}
