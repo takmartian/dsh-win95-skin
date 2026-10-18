@@ -3,6 +3,9 @@
 A persistent skin plugin for the DeepSeek Harness Web UI that redraws the
 interface as a Windows 95 application.
 
+[Download the latest release](https://github.com/takmartian/dsh-win95-skin/releases/latest)
+· [Install guide](INSTALL.md) · MIT (code) / OFL 1.1 (fonts)
+
 - **Palette**: the Windows 95 desktop colours — silver `#c0c0c0` chrome, white
   document fields, black text, navy `#000080` selection and title bars, teal
   desktop colour in the app icon. Light and dark preferences both render the

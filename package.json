@@ -4,6 +4,14 @@
   "private": true,
   "description": "Windows 95 skin for the DeepSeek Harness Web UI: silver beveled chrome, navy selection, square pixel icons, and classic scrollbars.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takmartian/dsh-win95-skin.git"
+  },
+  "homepage": "https://github.com/takmartian/dsh-win95-skin#readme",
+  "bugs": {
+    "url": "https://github.com/takmartian/dsh-win95-skin/issues"
+  },
   "keywords": [
     "dsh",
     "deepseek-harness",
