@@ -1,5 +1,5 @@
 # dsh_win95_skin
-
+![preview](preview.png "preview")
 A persistent skin plugin for the DeepSeek Harness Web UI that redraws the
 interface as a Windows 95 application.
 
